@@ -139,6 +139,8 @@ main {
     border-right: 4px solid var(--primary);
     font-size: 4vw;
     line-height: 1.1;
+    min-width: 150px;
+    justify-content: center;
 }
 
 .page-selection > div {
@@ -147,6 +149,8 @@ main {
 
 .page-section p {
     margin-bottom: 20px;
+    padding: 10px;
+    align-items: center;
 }
 
 .flex-container {
@@ -213,6 +217,7 @@ main {
     background-position: bottom;
     transition: all 0.25s ease-in;
     display: inline-block;
+    padding: 30px;
 }
 
 .contact address a:hover {
